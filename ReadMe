@@ -1,0 +1,20 @@
+Kibana plugin development Cheatsheet
+
+https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md#development-environment-setup
+
+install nvm
+install yarn
+
+git clone https://github.com/[YOUR_USERNAME]/kibana.git kibana
+cd kibana
+
+nvm use
+
+yarn kbn bootstrap
+
+yarn es snapshot
+
+Download JDK https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Start Kibana Server
+yarn start
