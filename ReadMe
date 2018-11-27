@@ -2,6 +2,10 @@ Kibana plugin development Cheatsheet
 
 https://github.com/elastic/kibana/blob/master/CONTRIBUTING.md#development-environment-setup
 
+
+Mac - install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 install nvm
 install yarn
 
