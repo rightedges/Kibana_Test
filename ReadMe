@@ -16,6 +16,10 @@ nvm use
 
 yarn kbn bootstrap
 node scripts/generate_plugin stock
+cd kibana-extra
+rm stock
+git clone https://github.com/rightedges/stock.git stock
+
 
 Download JDK https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
